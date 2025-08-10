@@ -22,8 +22,7 @@ React + Vite kullanılarak geliştirilmiş, hava durumu ve 5 günlük tahmin uyg
 ### 1. Repoyu klonlayın
 
 ```bash
-git clone <REPO_URL>
-cd WeatherApp
+git clone https://github.com/muratkaya12/HavaDurumuUygulamasi-WeatherApp.git
 ```
 
 ### 2. Ortam değişkenini ayarlayın
@@ -47,16 +46,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-Tarayıcıda `http://localhost:5173` adresine gidin.
-
-### 5. Üretim için derleme
-
-```bash
-npm run build
-```
-
----
 
 ## 📂 Proje Yapısı (Örnek)
 
