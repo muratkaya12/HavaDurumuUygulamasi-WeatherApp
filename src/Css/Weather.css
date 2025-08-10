@@ -1,0 +1,62 @@
+@import './Colors.css';
+
+
+.weather-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.city {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.weather-ico {
+    width: 120px;
+    height: 120px;
+    padding: 30px 0;
+}
+
+.weather-cont span {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.weather-name {
+    text-transform: capitalize;
+}
+
+.other-days {
+    border-radius: 20px;
+    border: 2px solid;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+}
+
+.day {
+    height: 140px;
+    width: 80px;
+    padding: 15px 30px;
+    gap: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.day:not(:last-child) {
+    border-right: 2px solid;
+}
+
+.day span {
+    font-size: 20px;
+}
+
+.day img {
+    width: 40px;
+    height: 40px;
+}

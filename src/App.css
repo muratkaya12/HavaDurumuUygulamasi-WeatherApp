@@ -1,0 +1,42 @@
+@import '../src//Css/Colors.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('src/img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  z-index: -1;
+}
+
+.main-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
